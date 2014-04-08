@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="panel">
+           <!--  <input id="manual-address" type="text" value="Sydney, NSW">
+            <input type="button" value="Geocode" onclick="codeAddress()">
+            <input id="latlng" type="text" value="40.714224,-73.961452">
+            <input type="button" value="Reverse Geocode" onclick="codeLatLng()">
+            <div class="">
+                <input id="start" type="text" value="Start">
+                <input id="end" type="text" value="End">
+                <strong>Mode of Travel: </strong>
+                <select id="mode" onchange="calcRoute();">
+                    <option value="DRIVING">Driving</option>
+                    <option value="WALKING">Walking</option>
+                    <option value="BICYCLING">Bicycling</option>
+                    <option value="TRANSIT">Transit</option>
+                </select>
+                <input id="calc" type="button" value="Get directions" onclick="calcRoute()">
+            </div> -->
+        <input type="button" id"add-all-markers" value="Add all markers">
+        </div>
+        <div id="map-canvas"></div>
+        <div id="floating-closest-anchor"></div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUWszpccpMeKN6IYGCl4TYOPbzV0xUu28&sensor=false"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
