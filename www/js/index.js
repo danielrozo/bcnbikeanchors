@@ -1,4 +1,3 @@
-var apiUrl = "";
 var map = null;
 
 var userPosition = {};
@@ -27,6 +26,7 @@ var app = {
         });
         navigator.geolocation.getCurrentPosition(app.onSuccess, app.onError);
         app.addClickListeners();
+        document.addEventListener('menubutton', app.onMenuKeyDown, false);
     },
 
     onSuccess: function (position) {
@@ -55,11 +55,12 @@ var app = {
 
         for (var i = 0; i < data.length; i++) {
             var mark = mapHelper.setMarker(data[i].latitude, data[i].longitude);
-            (function(marker){
+            (function(marker, anchor){
                 google.maps.event.addListener(marker, 'click', function(){
+                    $('#floating-closest-anchor').text(anchor.name).data("lat", anchor.latitude).data("lng", anchor.longitude);
                     mapHelper.getNavigationRoute(new google.maps.LatLng(userPosition.lat,userPosition.lng), marker.getPosition());
                 });
-            })(mark);
+            })(mark, data[i]);
         }
     },
     addClickListeners: function () {
@@ -67,6 +68,14 @@ var app = {
             var data = $('#floating-closest-anchor').data();
             mapHelper.navigateToPoint(data.lat,data.lng);
         });
+
+        $('#travelMode-select').change(function(){
+            mapHelper.setTravelMode($('#travelMode-select').val());
+            $('#travelMode-select').toggleClass("hidden");
+        });
+    },
+    onMenuKeyDown: function(){
+        $('#menu').toggleClass("hidden");
     }
 };
 
@@ -91,7 +100,7 @@ var mapHelper = {
         var request = {
             origin: startLatLng,
             destination: endLatLng,
-            travelMode: google.maps.TravelMode["WALKING"]
+            travelMode: mapHelper.getTravelMode()
         };
         var directionsDisplay = new google.maps.DirectionsRenderer();
         directionsDisplay.setMap(null);
@@ -101,7 +110,13 @@ var mapHelper = {
                 directionsDisplay.setDirections(response);
             }
         });
-    }, 
+    },
+    getTravelMode: function(){
+        return window.localStorage.getItem("TravelMode") || "WALKING";
+    },
+    setTravelMode: function(travelMode){
+        window.localStorage.setItem("TravelMode", travelMode);
+    }
 };
 
 var apiHelper = {
@@ -121,7 +136,6 @@ var apiHelper = {
             },
             url: apiHelper.apiUrl + urlParams
         }).done(success).fail(error);
-
     },
     objectToUrlParams: function(obj){
         var str = "?";

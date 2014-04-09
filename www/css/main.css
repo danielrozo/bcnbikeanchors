@@ -384,3 +384,20 @@ body,
     padding:5px;
     top: 20px;
   }
+.hidden{
+  display: none;
+}
+
+#menu{
+    width: 30%;
+    background-color: black;
+    color: white;
+    position:absolute;
+    bottom: 0;
+    left: 35%;
+}
+
+#menu select{
+  width: 100%;
+  font-size: 1.1em;
+}
