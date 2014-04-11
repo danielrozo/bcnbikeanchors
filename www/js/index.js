@@ -51,17 +51,21 @@ var app = {
     },
     onLocatedDataLoaded: function (data) {
         //will only run when we've got the user's position and internet.
-        $('#floating-closest-anchor').text(data[0].name).data("lat", data[0].latitude).data("lng",data[0].longitude);
-
         for (var i = 0; i < data.length; i++) {
             var mark = mapHelper.setMarker(data[i].latitude, data[i].longitude);
             (function(marker, anchor){
                 google.maps.event.addListener(marker, 'click', function(){
-                    $('#floating-closest-anchor').text(anchor.name).data("lat", anchor.latitude).data("lng", anchor.longitude);
+                    $('#floating-closest-anchor').html(anchor.name).data("lat", anchor.latitude).data("lng", anchor.longitude);
                     mapHelper.getNavigationRoute(new google.maps.LatLng(userPosition.lat,userPosition.lng), marker.getPosition());
                 });
             })(mark, data[i]);
         }
+        $('#floating-closest-anchor').html('Your nearest anchorage is:' + 
+                                            '<span class="anchor-name">' +
+                                            data[0].name +
+                                            '</span>').data("lat", data[0].latitude).data("lng",data[0].longitude);
+        $('#floating-closest-anchor').addClass('active');
+
     },
     addClickListeners: function () {
         $('#floating-closest-anchor').on('click', function(){
@@ -79,6 +83,8 @@ var app = {
     }
 };
 
+var directionsDisplay = new google.maps.DirectionsRenderer();
+
 var mapHelper = {
     directionsService: new google.maps.DirectionsService(),
     // directionsDisplay: new google.maps.DirectionsRenderer(),
@@ -92,6 +98,7 @@ var mapHelper = {
         var mark = new google.maps.Marker({
             position: latlng,
             map: map,
+            animation: google.maps.Animation.DROP,
             icon: markerIcon
         });
         return mark;
@@ -102,8 +109,8 @@ var mapHelper = {
             destination: endLatLng,
             travelMode: mapHelper.getTravelMode()
         };
-        var directionsDisplay = new google.maps.DirectionsRenderer();
-        directionsDisplay.setMap(null);
+
+
         directionsDisplay.setMap(map);
         mapHelper.directionsService.route(request, function(response, status) {
             if (status == google.maps.DirectionsStatus.OK) {

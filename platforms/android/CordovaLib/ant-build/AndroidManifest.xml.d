@@ -1,2 +1,2 @@
-C:\Users\daro\Documents\Cordova\bcnbikeanchors\platforms\android\CordovaLib\ant-build\AndroidManifest.xml : \
-C:\Users\daro\Documents\Cordova\bcnbikeanchors\platforms\android\CordovaLib\AndroidManifest.xml \
+/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/android/CordovaLib/ant-build/AndroidManifest.xml : \
+/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/android/CordovaLib/AndroidManifest.xml \
