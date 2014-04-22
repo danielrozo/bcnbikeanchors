@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.daniel.bcnbikes" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>BCN Bike Anchors</name>
+    <name>BCN Bike Parking</name>
     <description>
-        Find a bike anchor near you in Barcelona!
+        Find a bike parking near you in Barcelona!
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="daniel@danielrozo.es" href="http://danielrozo.es">
+        Xavier Gómez - Daniel Rozo
     </author>
     <content src="index.html" />
     <access origin="*" />
