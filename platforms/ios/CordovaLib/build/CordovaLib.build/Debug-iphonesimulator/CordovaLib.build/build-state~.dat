@@ -1,1184 +1,0 @@
-TCordovaLib
-v6
-r1
-cCheck dependencies
-cCpHeader Classes/NSDictionary+Extensions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-cCpHeader Classes/CDVInvokedUrlCommand.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-cCpHeader Classes/NSData+Base64.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-cCpHeader Classes/CDVPluginResult.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-cCpHeader Classes/CDVPlugin.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-cCpHeader Classes/CDVDebug.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-cCpHeader Classes/CDVWhitelist.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-cCpHeader Classes/CDVURLProtocol.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-cCpHeader Classes/CDVViewController.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-cCpHeader Classes/CDVCommandDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-cCpHeader Classes/CDV.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDV.h
-cCpHeader Classes/CDVAvailability.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-cCpHeader Classes/CDVLocalStorage.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-cCpHeader Classes/UIDevice+Extensions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-cCpHeader Classes/NSArray+Comparisons.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-cCpHeader Classes/CDVCommandQueue.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-cCpHeader Classes/CDVCommandDelegateImpl.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-cCpHeader Classes/CDVShared.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-cCpHeader Classes/CDVConfigParser.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-cCpHeader Classes/CDVJSON.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-cCpHeader Classes/CDVWebViewDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-cCpHeader Classes/CDVUserAgentUtil.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-cCpHeader Classes/CDVTimer.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-cProcessPCH /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/libCordova.a normal i386
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
-c0000000053119F8A0000000000000198
-t1393663882
-s408
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
-c0000000053346FFC00000000000003B4
-t1395945468
-s948
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000053347015000000000000019E
-t1395945493
-s414
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDV.h
-c000000005346E7A90000000000000516
-t1397155753
-s1302
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-c000000005346E7A90000000000000CDD
-t1397155753
-s3293
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-c000000005346E7A900000000000008BA
-t1397155753
-s2234
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-c000000005346E7A900000000000004B5
-t1397155753
-s1205
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-c000000005346E7A90000000000001491
-t1397155753
-s5265
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-c000000005346E7A90000000000000503
-t1397155753
-s1283
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-c000000005346E7A90000000000001EB7
-t1397155753
-s7863
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-c000000005346E7A900000000000004CB
-t1397155753
-s1227
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-c000000005346E7A90000000000000EB2
-t1397155753
-s3762
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVDebug.h
-c000000005346E7A90000000000000401
-t1397155753
-s1025
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-c000000005346E7A900000000000007E6
-t1397155753
-s2022
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-c000000005346E7A90000000000000DDE
-t1397155753
-s3550
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h
-c000000005346E7A900000000000003DA
-t1397155753
-s986
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.m
-c000000005346E7A900000000000009A1
-t1397155753
-s2465
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-c000000005346E7A900000000000006CF
-t1397155753
-s1743
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-c000000005346E7A90000000000004C7E
-t1397155753
-s19582
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-c000000005346E7A90000000000000892
-t1397155753
-s2194
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-c000000005346E7A900000000000016AE
-t1397155753
-s5806
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-c000000005346E7A90000000000000C13
-t1397155753
-s3091
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-c000000005346E7A90000000000001B29
-t1397155753
-s6953
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-c000000005346E7A90000000000000408
-t1397155753
-s1032
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.h
-c000000005346E7A900000000000003E6
-t1397155753
-s998
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.m
-c000000005346E7A900000000000006B6
-t1397155753
-s1718
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.h
-c000000005346E7A9000000000000038D
-t1397155753
-s909
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.m
-c000000005346E7A90000000000000AA2
-t1397155753
-s2722
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-c000000005346E7A9000000000000041C
-t1397155753
-s1052
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-c000000005346E7A9000000000000259E
-t1397155753
-s9630
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-c000000005346E7A90000000000000421
-t1397155753
-s1057
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-c000000005346E7A9000000000000133E
-t1397155753
-s4926
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.h
-c000000005346E7A90000000000000ACC
-t1397155753
-s2764
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.m
-c000000005346E7A90000000000008FB3
-t1397155753
-s36787
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-c000000005346E7A900000000000005A2
-t1397155753
-s1442
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-c000000005346E7A90000000000003764
-t1397155753
-s14180
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-c000000005346E7A900000000000004B4
-t1397155753
-s1204
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-c000000005346E7A90000000000002814
-t1397155753
-s10260
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-c000000005346E7A90000000000000392
-t1397155753
-s914
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-c000000005346E7A900000000000004D8
-t1397155753
-s1240
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-c000000005346E7A9000000000000037D
-t1397155753
-s893
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-c000000005346E7A900000000000022CC
-t1397155753
-s8908
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-c000000005346E7A900000000000005DA
-t1397155753
-s1498
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-c000000005346E7A90000000000001059
-t1397155753
-s4185
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-c000000005346E7A900000000000003A0
-t1397155753
-s928
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-c000000005346E7A90000000000000584
-t1397155753
-s1412
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-c000000005346E7A90000000000000476
-t1397155753
-s1142
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-c000000005346E7A90000000000000620
-t1397155753
-s1568
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-c000000005346E7A90000000000000346
-t1397155753
-s838
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-t1397155769
-s61400
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-t1397155769
-s61380
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-t1397155769
-s27488
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-t1397155768
-s18272
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-t1397155769
-s10592
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-t1397155769
-s106468
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-t1397155768
-s57136
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-t1397155768
-s36656
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
-t1397155770
-s9064
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-t1397155770
-s22632
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-t1397155768
-s68912
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-t1397155770
-s50792
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-t1397155769
-s163032
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-t1397155770
-s67916
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-t1397155768
-s42444
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
-c000000005346E7B40000000000000D93
-t1397155764
-s3475
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-t1397155769
-s7236
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-t1397155768
-s10932
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-t1397155768
-s17352
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-t1397155768
-s6796
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-t1397155769
-s9220
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDV.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-t2
-s0
-
-N/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/libCordova.a
-t2
-s0
-
-N/var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.pch
-t1397155767
-s3239344
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2d23a5331ff7b841^af236e341ff7b841^---0#1#1#--18"Check dependencies36"73D0FF5A-07B9-46FA-822D-D3CDDC483D6E-
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848569.582574
-e418848569.790739
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m232"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o [1mClasses/CDVCommandDelegateImpl.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfe4895391ff7b841^3aaeca391ff7b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3945"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o [1mClasses/CDVCommandDelegateImpl.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"4F6E966F-175C-4348-927E-1C19FF24243B-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848569.351058
-e418848569.581180
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o [1mClasses/CDVCommandQueue.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler94165a391ff7b841^b3d294391ff7b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3903"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o [1mClasses/CDVCommandQueue.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"B0F096C3-4711-4593-8095-17C2C4181686-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848569.791119
-e418848569.873161
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o [1mClasses/CDVConfigParser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler61a5ca391ff7b841^4bc8df391ff7b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3903"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o [1mClasses/CDVConfigParser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"71EEB0D0-77E6-486D-BBB6-BE0909193B05-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848567.735075
-e418848568.031266
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m228"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o [1mClasses/CDVInvokedUrlCommand.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3f52bc371ff7b841^ff3d08381ff7b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3933"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o [1mClasses/CDVInvokedUrlCommand.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"09E32B58-0B2B-4D3D-9703-7B98D8D41DD1-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848569.829390
-e418848569.889843
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.m202"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o [1mClasses/CDVJSON.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2bc3d4391ff7b841^2f4ee4391ff7b841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3855"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o [1mClasses/CDVJSON.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"898D70A8-CB80-4A3E-B7AB-2BDC3ED57097-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848568.768441
-e418848569.059068
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o [1mClasses/CDVLocalStorage.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb1dec4381ff7b841^b8200f391ff7b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3903"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o [1mClasses/CDVLocalStorage.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"0AA52084-713F-433D-8821-86E5CD728530-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848568.078874
-e418848568.750083
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.m206"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o [1mClasses/CDVPlugin.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0e9f14381ff7b841^9546c0381ff7b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3867"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o [1mClasses/CDVPlugin.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"BD40CCA7-4781-43E7-82B2-869036A8557D-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848568.035971
-e418848568.195676
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o [1mClasses/CDVPluginResult.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd25209381ff7b841^475a32381ff7b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3903"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o [1mClasses/CDVPluginResult.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"8E2BA82D-649B-4F0A-AB27-1905D713CF66-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848570.109243
-e418848570.166003
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.m206"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o [1mClasses/CDVShared.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7b161c3a1ff7b841^14042b3a1ff7b841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3867"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o [1mClasses/CDVShared.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"81362BAF-63B5-4BDF-BBB0-0EC387210688-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848570.080740
-e418848570.130743
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.m204"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o [1mClasses/CDVTimer.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0cca143a1ff7b841^828f213a1ff7b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3861"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o [1mClasses/CDVTimer.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"0BEDC957-8C98-4906-9342-17B79C8938C8-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848568.324619
-e418848568.768074
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m216"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o [1mClasses/CDVURLProtocol.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler933853381ff7b841^eeb5c4381ff7b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3897"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o [1mClasses/CDVURLProtocol.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"1E070237-35FB-4096-9F6B-875E15AC391E-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848569.873520
-e418848570.080413
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m220"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o [1mClasses/CDVUserAgentUtil.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd7bfdf391ff7b841^3dd2143a1ff7b841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3909"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o [1mClasses/CDVUserAgentUtil.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"6664AEA8-E467-4417-8158-2F6577B092CB-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848568.750435
-e418848569.829023
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDV.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVDebug.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.m222"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o [1mClasses/CDVViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerff3dc0381ff7b841^c93ad4391ff7b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3915"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o [1mClasses/CDVViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"CC3D2DF6-2BEC-4222-A164-FC2B7CCF9517-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848569.890184
-e418848570.108065
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m224"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o [1mClasses/CDVWebViewDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8d44e4391ff7b841^47aa1b3a1ff7b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3921"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o [1mClasses/CDVWebViewDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"1B9F0F45-AB29-44C4-97C3-CFEAA883EFB4-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848568.244601
-e418848568.324290
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.m212"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o [1mClasses/CDVWhitelist.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc6c43e381ff7b841^823853381ff7b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3885"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o [1mClasses/CDVWhitelist.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"54652B51-88A4-43B7-B4A5-FBF7F81CBC99-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848569.237999
-e418848569.350375
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m226"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o [1mClasses/NSArray+Comparisons.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler691d3d391ff7b841^88115a391ff7b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3927"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o [1mClasses/NSArray+Comparisons.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"01087824-3AAA-4D79-942F-A493D94E5CE4-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848568.031605
-e418848568.078537
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.m214"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o [1mClasses/NSData+Base64.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9c3508381ff7b841^8f3414381ff7b841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3891"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o [1mClasses/NSData+Base64.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"330C960E-4E3E-4E6C-B566-40591FF67622-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848567.734392
-e418848568.035650
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m234"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o [1mClasses/NSDictionary+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileree22bc371ff7b841^d55909381ff7b841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3951"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o [1mClasses/NSDictionary+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"EF182701-8303-4934-89F8-71CC534A0523-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848568.196039
-e418848568.244119
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m246"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o [1mClasses/NSMutableArray+QueueAdditions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1a5132381ff7b841^01a43e381ff7b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3987"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o [1mClasses/NSMutableArray+QueueAdditions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"3379C1B1-ADD4-4F34-88AB-594C4BBE874D-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848569.059609
-e418848569.237296
-r1
-xCompileC
-xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m226"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o [1mClasses/UIDevice+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler04700f391ff7b841^dc293d391ff7b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3927"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o [1mClasses/UIDevice+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG -include /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"4329DFA3-E52E-4B11-894A-7712E37FC23C-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDV.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDV.h
-s418848564.564937
-e418848564.566962
-r1
-xCpHeader
-xClasses/CDV.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDV.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDV.h137"[1mCpHeader[0m Classes/CDV.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDV.h[0m5bb490341ff7b841^b03791341ff7b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDV.h0034280edeffdf42^739"[1mCpHeader[0m Classes/CDV.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDV.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDV.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"ADDE3617-F750-48EE-9097-E1F4972A6AB3-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVAvailability.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-s418848564.565918
-e418848564.567155
-r1
-xCpHeader
-xClasses/CDVAvailability.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h161"[1mCpHeader[0m Classes/CDVAvailability.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h[0ma2f190341ff7b841^d26d91341ff7b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h0034280edeffdf42^775"[1mCpHeader[0m Classes/CDVAvailability.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"6A8090C2-C98E-4182-BE95-38BC19DD79F4-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVCommandDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-s418848564.563526
-e418848564.565351
-r1
-xCpHeader
-xClasses/CDVCommandDelegate.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h167"[1mCpHeader[0m Classes/CDVCommandDelegate.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h[0mcf6790341ff7b841^12bd90341ff7b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h0034280edeffdf42^784"[1mCpHeader[0m Classes/CDVCommandDelegate.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"01C18B9C-7115-48D1-9044-1A91EA2CD54D-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVCommandDelegateImpl.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-s418848564.572254
-e418848564.573422
-r1
-xCpHeader
-xClasses/CDVCommandDelegateImpl.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h175"[1mCpHeader[0m Classes/CDVCommandDelegateImpl.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h[0m369092341ff7b841^38d992341ff7b841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h0034280edeffdf42^796"[1mCpHeader[0m Classes/CDVCommandDelegateImpl.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"B3DCC95A-9AE7-45E7-B814-B50BD253A494-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVCommandQueue.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-s418848564.570233
-e418848564.571720
-r1
-xCpHeader
-xClasses/CDVCommandQueue.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h161"[1mCpHeader[0m Classes/CDVCommandQueue.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h[0m630e92341ff7b841^066592341ff7b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h0034280edeffdf42^775"[1mCpHeader[0m Classes/CDVCommandQueue.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"AE958C0F-82AA-4A52-BAEB-CF733D3A7B23-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVConfigParser.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-s418848564.574572
-e418848564.576151
-r1
-xCpHeader
-xClasses/CDVConfigParser.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h161"[1mCpHeader[0m Classes/CDVConfigParser.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h[0m452f93341ff7b841^ac7093341ff7b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h0034280edeffdf42^775"[1mCpHeader[0m Classes/CDVConfigParser.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"D697A457-DE36-4500-8482-7C3EF33B7004-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVDebug.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-s418848564.441637
-e418848564.558877
-r1
-xCpHeader
-xClasses/CDVDebug.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVDebug.h147"[1mCpHeader[0m Classes/CDVDebug.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVDebug.h[0m2e1f71341ff7b841^01148f341ff7b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVDebug.h0034280edeffdf42^754"[1mCpHeader[0m Classes/CDVDebug.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVDebug.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"3E5B4C3D-30B3-47D5-A962-190E85FB8A86-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVInvokedUrlCommand.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-s418848564.435657
-e418848564.437718
-r1
-xCpHeader
-xClasses/CDVInvokedUrlCommand.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h171"[1mCpHeader[0m Classes/CDVInvokedUrlCommand.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h[0mb79c6f341ff7b841^941470341ff7b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h0034280edeffdf42^790"[1mCpHeader[0m Classes/CDVInvokedUrlCommand.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"87865167-5E32-462C-A367-6B6F0059080E-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVJSON.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-s418848564.575582
-e418848564.577285
-r1
-xCpHeader
-xClasses/CDVJSON.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVJSON.h145"[1mCpHeader[0m Classes/CDVJSON.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVJSON.h[0mdc8093341ff7b841^efc993341ff7b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVJSON.h0034280edeffdf42^751"[1mCpHeader[0m Classes/CDVJSON.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVJSON.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"5DFDB929-0A0A-4B5D-8E59-653134FB3703-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVLocalStorage.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-s418848564.567120
-e418848564.569653
-r1
-xCpHeader
-xClasses/CDVLocalStorage.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h161"[1mCpHeader[0m Classes/CDVLocalStorage.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h[0mbc5791341ff7b841^2bd991341ff7b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h0034280edeffdf42^775"[1mCpHeader[0m Classes/CDVLocalStorage.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"431F1646-FF4D-4C3F-BAEE-8167AE0FF58D-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVPlugin.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-s418848564.441326
-e418848564.558955
-r1
-xCpHeader
-xClasses/CDVPlugin.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h149"[1mCpHeader[0m Classes/CDVPlugin.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h[0mae0d71341ff7b841^f7218f341ff7b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h0034280edeffdf42^757"[1mCpHeader[0m Classes/CDVPlugin.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"B7D0CDF1-274C-4446-A084-F524753D49B6-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVPluginResult.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-s418848564.438524
-e418848564.441244
-r1
-xCpHeader
-xClasses/CDVPluginResult.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h161"[1mCpHeader[0m Classes/CDVPluginResult.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h[0mc95570341ff7b841^2daf70341ff7b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h0034280edeffdf42^775"[1mCpHeader[0m Classes/CDVPluginResult.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"CBC435F6-C169-45A9-B5B4-840047E19B6B-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-s418848564.573575
-e418848564.575437
-r1
-xCpHeader
-xClasses/CDVScreenOrientationDelegate.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h187"[1mCpHeader[0m Classes/CDVScreenOrientationDelegate.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h[0m1d0293341ff7b841^a35b93341ff7b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h0034280edeffdf42^814"[1mCpHeader[0m Classes/CDVScreenOrientationDelegate.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"11982417-EA94-49C1-A386-69CCB4F397EC-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVShared.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-s418848564.572658
-e418848564.574195
-r1
-xCpHeader
-xClasses/CDVShared.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVShared.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVShared.h149"[1mCpHeader[0m Classes/CDVShared.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVShared.h[0mcdab92341ff7b841^63f292341ff7b841^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVShared.h0034280edeffdf42^757"[1mCpHeader[0m Classes/CDVShared.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVShared.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"116826EC-18FA-48E9-93BE-C465B9060959-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVTimer.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-s418848564.578942
-e418848564.579942
-r1
-xCpHeader
-xClasses/CDVTimer.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVTimer.h147"[1mCpHeader[0m Classes/CDVTimer.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVTimer.h[0mc34794341ff7b841^d97894341ff7b841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVTimer.h0034280edeffdf42^754"[1mCpHeader[0m Classes/CDVTimer.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVTimer.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"DD86AE1E-6E68-47EC-8486-3822FD401EE6-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVURLProtocol.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-s418848564.561730
-e418848564.563331
-r1
-xCpHeader
-xClasses/CDVURLProtocol.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h159"[1mCpHeader[0m Classes/CDVURLProtocol.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h[0m26e08f341ff7b841^d23890341ff7b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h0034280edeffdf42^772"[1mCpHeader[0m Classes/CDVURLProtocol.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"39BEC5AA-421C-421B-AAD3-61C3F34EA33A-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVUserAgentUtil.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-s418848564.577616
-e418848564.578687
-r1
-xCpHeader
-xClasses/CDVUserAgentUtil.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h163"[1mCpHeader[0m Classes/CDVUserAgentUtil.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h[0ma6f193341ff7b841^ee2694341ff7b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h0034280edeffdf42^778"[1mCpHeader[0m Classes/CDVUserAgentUtil.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"FCCA6E8E-614F-4BA9-B371-EB69B7D1BFA4-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVViewController.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-s418848564.562181
-e418848564.563334
-r1
-xCpHeader
-xClasses/CDVViewController.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVViewController.h165"[1mCpHeader[0m Classes/CDVViewController.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVViewController.h[0m3ffd8f341ff7b841^d84a90341ff7b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVViewController.h0034280edeffdf42^781"[1mCpHeader[0m Classes/CDVViewController.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVViewController.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"476C8CC6-E3C3-424C-9DC6-DCFDD5A6CD81-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVWebViewDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-s418848564.576890
-e418848564.578691
-r1
-xCpHeader
-xClasses/CDVWebViewDelegate.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h167"[1mCpHeader[0m Classes/CDVWebViewDelegate.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h[0madc193341ff7b841^be2d94341ff7b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h0034280edeffdf42^784"[1mCpHeader[0m Classes/CDVWebViewDelegate.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"DB7A4172-8E59-4BD4-9740-09B87E767972-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/CDVWhitelist.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-s418848564.559893
-e418848564.561130
-r1
-xCpHeader
-xClasses/CDVWhitelist.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h155"[1mCpHeader[0m Classes/CDVWhitelist.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h[0mf06c8f341ff7b841^10af8f341ff7b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h0034280edeffdf42^766"[1mCpHeader[0m Classes/CDVWhitelist.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"EBBFEA8A-83B0-4383-942B-7C75CF6FE978-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/NSArray+Comparisons.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-s418848564.570021
-e418848564.571693
-r1
-xCpHeader
-xClasses/NSArray+Comparisons.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h169"[1mCpHeader[0m Classes/NSArray+Comparisons.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h[0m810792341ff7b841^c85b92341ff7b841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h0034280edeffdf42^787"[1mCpHeader[0m Classes/NSArray+Comparisons.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"24D5C7AD-CBD5-4AAD-9CBF-EA44AE6F1AD2-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/NSData+Base64.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-s418848564.438502
-e418848564.440086
-r1
-xCpHeader
-xClasses/NSData+Base64.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h157"[1mCpHeader[0m Classes/NSData+Base64.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h[0mc95570341ff7b841^b4ab70341ff7b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h0034280edeffdf42^769"[1mCpHeader[0m Classes/NSData+Base64.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"A704CC44-4B72-4B92-8015-BE64067E4E9C-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/NSDictionary+Extensions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-s418848564.435070
-e418848564.437709
-r1
-xCpHeader
-xClasses/NSDictionary+Extensions.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h177"[1mCpHeader[0m Classes/NSDictionary+Extensions.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h[0m27876f341ff7b841^c71070341ff7b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h0034280edeffdf42^799"[1mCpHeader[0m Classes/NSDictionary+Extensions.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"AFE5E1C3-A8C8-49ED-99F3-B127575E166D-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-s418848564.559487
-e418848564.561110
-r1
-xCpHeader
-xClasses/NSMutableArray+QueueAdditions.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h189"[1mCpHeader[0m Classes/NSMutableArray+QueueAdditions.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h[0m43568f341ff7b841^a8a78f341ff7b841^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h0034280edeffdf42^817"[1mCpHeader[0m Classes/NSMutableArray+QueueAdditions.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"44CD1EB8-2F28-45A4-99AB-DF10F6C89114-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CCpHeader Classes/UIDevice+Extensions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-s418848564.567545
-e418848564.569561
-r1
-xCpHeader
-xClasses/UIDevice+Extensions.h
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Copy /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h169"[1mCpHeader[0m Classes/UIDevice+Extensions.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h[0m726c91341ff7b841^3dd191341ff7b841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h0034280edeffdf42^787"[1mCpHeader[0m Classes/UIDevice+Extensions.h [1m/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h[0m    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include/Cordova36"3FFFBA4C-0167-4156-AEC4-EAD856802C3B-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CLibtool /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/libCordova.a normal i386
-s418848570.168349
-e418848570.218350
-r1
-xLibtool
-x/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/libCordova.a
-xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"[1mLibtool[0m /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/libCordova.a normal i386117"[1mLibtool[0m /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/libCordova.a normal i3862b312b3a1ff7b841^0bee373a1ff7b841^---0#0#1#--1078"[1mLibtool[0m /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -filelist /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/libCordova.a36"5F718EC0-365D-49A4-B0E2-70F360561155-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
-CProcessPCH /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418848564.580893
-e418848567.733206
-r1
-xProcessPCH
-x/var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.pch
-xCordovaLib_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch297"[1mProcessPCH[0m /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercfdb94341ff7b841^28b5bb371ff7b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3835"[1mProcessPCH[0m /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/build/emulator -DDEBUG --serialize-diagnostics /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.d -c /Users/hiulit/Documents/GitHub/bcnbikeanchors-1/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/jj/vmzlsfk54k7446_snq7z6gm00000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bzkvtroasoowymgglhcphjxhhtmw/CordovaLib_Prefix.pch.pch36"4510EB6A-2F6E-47F4-825A-2922C417662A-
-bE0F34D5A-412B-4B12-8523-6B5F348BB02C
-
