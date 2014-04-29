@@ -12,6 +12,9 @@ After you've cloned this repo, you'll need to run this commands in order to get 
     mkdir plugins
     cordova plugin add apache.org.cordova.network-information
     cordova plugin add apache.org.cordova.geolocation
+    cordova plugin add https://github.com/Wizcorp/phonegap-plugin-wizSpinner
+
+For the last one you'll need to have git added to your PATH.
 
 Then you'll be able to add any platform you like, for example:
 

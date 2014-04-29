@@ -2,6 +2,19 @@ var map = null;
 
 var userPosition = {};
 
+function showSpinner()
+{
+        var options = {
+            customSpinner : false,
+            position : "middle",
+            label : "Loading",
+        bgColor: "#000",
+        opacity:0.5,
+        color: "#000"
+        };
+        window.wizSpinner.show(options);
+}
+
 var app = {
     // Application Constructor
     initialize: function () {
@@ -19,7 +32,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function () {
-        console.log("device ready");
+        showSpinner();
         map = new google.maps.Map(document.getElementById('map-canvas'), {
             zoom: 12,
             center: new google.maps.LatLng(41.3906611, 2.171749)
@@ -27,6 +40,7 @@ var app = {
         navigator.geolocation.getCurrentPosition(app.onSuccess, app.onError);
         app.addClickListeners();
         document.addEventListener('menubutton', app.onMenuKeyDown, false);
+        $('#travelMode-select').val(mapHelper.getTravelMode);
     },
 
     onSuccess: function (position) {
@@ -43,7 +57,7 @@ var app = {
         mapHelper.navigateToPoint(userPosition.lat, userPosition.lng);
 
         apiHelper.getCloseAnchors(userPosition.lat, userPosition.lng, app.onLocatedDataLoaded, function(error){});
-
+        window.wizSpinner.hide();
     },
     onError: function () {
         alert('code: ' + error.code + '\n' +
@@ -55,15 +69,16 @@ var app = {
             var mark = mapHelper.setMarker(data[i].latitude, data[i].longitude);
             (function(marker, anchor){
                 google.maps.event.addListener(marker, 'click', function(){
-                    $('#floating-closest-anchor').html(anchor.name).data("lat", anchor.latitude).data("lng", anchor.longitude);
+                    $('#floating-closest-anchor').html("<span class='anchor-name'>"+anchor.name+"</span>"+anchor.address).data("lat", anchor.latitude).data("lng", anchor.longitude);
                     mapHelper.getNavigationRoute(new google.maps.LatLng(userPosition.lat,userPosition.lng), marker.getPosition());
                 });
             })(mark, data[i]);
         }
-        $('#floating-closest-anchor').html('Your nearest anchorage is:' + 
+        $('#floating-closest-anchor').html('Your nearest parking is:' + 
                                             '<span class="anchor-name">' +
                                             data[0].name +
                                             '</span>').data("lat", data[0].latitude).data("lng",data[0].longitude);
+
         $('#floating-closest-anchor').addClass('active');
 
     },
@@ -74,6 +89,7 @@ var app = {
         });
 
         $('#travelMode-select').change(function(){
+            console.log("menu clicked");
             mapHelper.setTravelMode($('#travelMode-select').val());
             $('#travelMode-select').toggleClass("hidden");
         });
@@ -110,7 +126,6 @@ var mapHelper = {
             travelMode: mapHelper.getTravelMode()
         };
 
-
         directionsDisplay.setMap(map);
         mapHelper.directionsService.route(request, function(response, status) {
             if (status == google.maps.DirectionsStatus.OK) {
@@ -119,10 +134,13 @@ var mapHelper = {
         });
     },
     getTravelMode: function(){
-        return window.localStorage.getItem("TravelMode") || "WALKING";
+        var travelMode = window.localStorage.getItem("TravelMode") || "WALKING";
+        console.log(travelMode);
+        return travelMode;
     },
     setTravelMode: function(travelMode){
         window.localStorage.setItem("TravelMode", travelMode);
+        console.log(travelMode);
     }
 };
 
