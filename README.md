@@ -24,3 +24,6 @@ Then you'll be able to add any platform you like, for example:
 And then build/deploy to your phone:
 
     cordova run android
+
+###Notes
+Currently our API is hosted on a free instance of Azure Mobile Services, so the application may be suspended if no one is using it; be patient, as it may take 2-3 seconds for the first petition to complete if it is suspended.

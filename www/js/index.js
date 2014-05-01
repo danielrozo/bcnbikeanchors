@@ -144,12 +144,12 @@ var mapHelper = {
 };
 
 var apiHelper = {
-    apiUrl: "https://bcnbikeanchors.azure-mobile.net/api/bikeanchors/",
+    apiUrl: "https://bcnbikeanchors.azure-mobile.net/api/parkings/",
     getCloseAnchors: function(lat, lng, success, error){
-        apiHelper.callService({lat:lat, lng:lng}, success , error);
+        apiHelper.callService({lat: lat, lng: lng}, success , error);
     },
     getAllAnchors: function(success, error){
-        //TODO: invoke apiHelper.callService with the correct params to download all 488 anchors.
+        apiHelper.callService({}, success, error);
     },
     callService: function(params, success, error){
         var urlParams = apiHelper.objectToUrlParams(params || {});
@@ -163,7 +163,11 @@ var apiHelper = {
             error: error
         });
     },
+    searchByName : function (name, success, error){
+        callService({name: name}, success, error);
+    },
     objectToUrlParams: function(obj){
+        if(!obj || obj === {}) return;
         var str = "?";
         for (var key in obj) {
             if (str != "?") {
