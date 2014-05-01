@@ -57,14 +57,13 @@ var app = {
         mapHelper.navigateToPoint(userPosition.lat, userPosition.lng);
 
         apiHelper.getCloseAnchors(userPosition.lat, userPosition.lng, app.onLocatedDataLoaded, function(error){});
-        window.wizSpinner.hide();
     },
     onError: function () {
         alert('code: ' + error.code + '\n' +
             'message: ' + error.message + '\n');
     },
     onLocatedDataLoaded: function (data) {
-        //will only run when we've got the user's position and internet.
+        window.wizSpinner.hide();
         for (var i = 0; i < data.length; i++) {
             var mark = mapHelper.setMarker(data[i].latitude, data[i].longitude);
             (function(marker, anchor){
@@ -159,8 +158,10 @@ var apiHelper = {
             headers: {
                 "X-ZUMO-APPLICATION": "UmlmPXSgHQmFpGlfnjDBUnFbofUqqs65"
             },
-            url: apiHelper.apiUrl + urlParams
-        }).done(success).fail(error);
+            url: apiHelper.apiUrl + urlParams,
+            success: success,
+            error: error
+        });
     },
     objectToUrlParams: function(obj){
         var str = "?";
