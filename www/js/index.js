@@ -37,10 +37,14 @@ var app = {
             zoom: 12,
             center: new google.maps.LatLng(41.3906611, 2.171749)
         });
-        navigator.geolocation.getCurrentPosition(app.onSuccess, app.onError);
+        var options = {
+            timeout: 10000,
+        };
+        navigator.geolocation.getCurrentPosition(app.onSuccess, app.onError, options);
         app.addClickListeners();
         document.addEventListener('menubutton', app.onMenuKeyDown, false);
         $('#travelMode-select').val(mapHelper.getTravelMode);
+        console.log("pasamos");
     },
 
     onSuccess: function (position) {
@@ -58,9 +62,13 @@ var app = {
 
         apiHelper.getCloseAnchors(userPosition.lat, userPosition.lng, app.onLocatedDataLoaded, function(error){});
     },
-    onError: function () {
-        alert('code: ' + error.code + '\n' +
-            'message: ' + error.message + '\n');
+    onError: function (error) {
+        console.log("mis");
+        window.wizSpinner.hide();
+        alert("Data loading has failed, please turn on GPS and come back.");
+        apiHelper.getAllAnchors(app.onLocatedDataLoaded, function(error){
+            alert("There's no internet connection")
+        });
     },
     onLocatedDataLoaded: function (data) {
         window.wizSpinner.hide();
@@ -134,19 +142,21 @@ var mapHelper = {
     },
     getTravelMode: function(){
         var travelMode = window.localStorage.getItem("TravelMode") || "WALKING";
-        console.log(travelMode);
         return travelMode;
     },
     setTravelMode: function(travelMode){
         window.localStorage.setItem("TravelMode", travelMode);
-        console.log(travelMode);
     }
 };
 
 var apiHelper = {
     apiUrl: "https://bcnbikeanchors.azure-mobile.net/api/parkings/",
     getCloseAnchors: function(lat, lng, success, error){
-        apiHelper.callService({lat: lat, lng: lng}, success , error);
+        var cacheItem = cacheHelper.getFromCache(lat,lng, new Date());
+        if(cacheItem){
+            success(cacheItem.parkings);
+        }
+        apiHelper.callService({lat: lat, lng: lng}, function(data){ cacheHelper.addToCache(lat,lng,data); success(data); } , error);
     },
     getAllAnchors: function(success, error){
         apiHelper.callService({}, success, error);
@@ -178,3 +188,66 @@ var apiHelper = {
         return str;
     }
 };
+
+var cacheHelper = {
+    addToCache : function(lat, lng, parkings){
+        var latlng = coordinatesHelper.getCommonPosition(lat,lng);
+        var toStore = {
+            timestamp: new Date(),
+            lat: lat,
+            lng: lng,
+            parkings: parkings
+        };
+        window.localStorage.setItem(latlng.lat+";"+latlng.lng, JSON.stringify(toStore));
+    },
+    getFromCache: function(lat, lng, date){
+        var latlng = coordinatesHelper.getCommonPosition(lat,lng);
+        var itemString = window.localStorage.getItem(latlng.lat+";"+latlng.lng);
+        if(itemString){
+            var item = JSON.parse(itemString);
+            if(DateDiff.inDays(item.timestamp || new Date(), new Date()) < 5){
+                console.log("Got from cache "+ itemString);
+                return item;
+            }
+            else
+                return null;
+        }
+        return null;
+    }
+};
+
+var coordinatesHelper = {
+    getCommonPosition: function(lat, lng){
+        return {lat: lat.toPrecision(1+4), lng: lng.toPrecision(1+4)};
+    }
+};
+
+var DateDiff = {
+
+    inDays: function(d1, d2) {
+        var t2 = d2.getTime();
+        var t1 = d1.getTime();
+
+        return parseInt((t2-t1)/(24*3600*1000));
+    },
+
+    inWeeks: function(d1, d2) {
+        var t2 = d2.getTime();
+        var t1 = d1.getTime();
+
+        return parseInt((t2-t1)/(24*3600*1000*7));
+    },
+
+    inMonths: function(d1, d2) {
+        var d1Y = d1.getFullYear();
+        var d2Y = d2.getFullYear();
+        var d1M = d1.getMonth();
+        var d2M = d2.getMonth();
+
+        return (d2M+12*d2Y)-(d1M+12*d1Y);
+    },
+
+    inYears: function(d1, d2) {
+        return d2.getFullYear()-d1.getFullYear();
+    }
+}
